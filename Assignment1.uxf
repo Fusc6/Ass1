@@ -19,7 +19,14 @@
 --
 - current: float
 --
-- calculate_wattage()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>902</x><y>341</y><w>154</w><h>143</h></coordinates><panel_attributes>Light</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1221</x><y>330</y><w>110</w><h>165</h></coordinates><panel_attributes>Switch</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>341</x><y>440</y><w>110</w><h>33</h></coordinates><panel_attributes>Sensor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1683</x><y>319</y><w>110</w><h>165</h></coordinates><panel_attributes>Buzzer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>594</x><y>341</y><w>110</w><h>110</h></coordinates><panel_attributes>PowerSource
+- calculate_wattage()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>902</x><y>330</y><w>154</w><h>143</h></coordinates><panel_attributes>Light
+--
+ - color: str
+- voltage: float
+- current: float
+--
+- calculate_wattage()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1221</x><y>330</y><w>110</w><h>165</h></coordinates><panel_attributes>Switch</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>341</x><y>440</y><w>110</w><h>33</h></coordinates><panel_attributes>Sensor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1683</x><y>319</y><w>110</w><h>165</h></coordinates><panel_attributes>Buzzer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>594</x><y>341</y><w>110</w><h>110</h></coordinates><panel_attributes>PowerSource
 --
 - voltage: str
 --
