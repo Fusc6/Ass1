@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>957</x><y>11</y><w>154</w><h>176</h></coordinates><panel_attributes>Component
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>957</x><y>0</y><w>154</w><h>176</h></coordinates><panel_attributes>Component
 --
 + name: str
 + price: float
@@ -8,19 +8,20 @@
 - duplicate()
 - parse_str()
 - compare()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1452</x><y>341</y><w>110</w><h>154</h></coordinates><panel_attributes>Wire
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1452</x><y>330</y><w>110</w><h>154</h></coordinates><panel_attributes>Wire
 --
 - length: float
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>517</x><y>539</y><w>110</w><h>110</h></coordinates><panel_attributes>Battery
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>517</x><y>528</y><w>110</w><h>110</h></coordinates><panel_attributes>Battery
 --
 - size: str
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>671</x><y>539</y><w>110</w><h>99</h></coordinates><panel_attributes>SolarPanel
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>528</y><w>154</w><h>99</h></coordinates><panel_attributes>SolarPanel
 --
 - current: float
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>902</x><y>352</y><w>154</w><h>143</h></coordinates><panel_attributes>Light</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1221</x><y>341</y><w>110</w><h>165</h></coordinates><panel_attributes>Switch</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>341</x><y>451</y><w>110</w><h>33</h></coordinates><panel_attributes>Sensor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1683</x><y>330</y><w>110</w><h>165</h></coordinates><panel_attributes>Buzzer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>594</x><y>352</y><w>110</w><h>110</h></coordinates><panel_attributes>PowerSource
+--
+- calculate_wattage()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>902</x><y>341</y><w>154</w><h>143</h></coordinates><panel_attributes>Light</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1221</x><y>330</y><w>110</w><h>165</h></coordinates><panel_attributes>Switch</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>341</x><y>440</y><w>110</w><h>33</h></coordinates><panel_attributes>Sensor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1683</x><y>319</y><w>110</w><h>165</h></coordinates><panel_attributes>Buzzer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>594</x><y>341</y><w>110</w><h>110</h></coordinates><panel_attributes>PowerSource
 --
 - voltage: str
 --
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>836</x><y>561</y><w>110</w><h>33</h></coordinates><panel_attributes>LED</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>979</x><y>561</y><w>110</w><h>33</h></coordinates><panel_attributes>Globe</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>88</x><y>132</y><w>110</w><h>33</h></coordinates><panel_attributes>CircuitKit</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>253</y><w>110</w><h>33</h></coordinates><panel_attributes>LightCircuitKit</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>165</x><y>253</y><w>110</w><h>33</h></coordinates><panel_attributes>SensorCircuitKit</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>836</x><y>550</y><w>110</w><h>33</h></coordinates><panel_attributes>LED</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>979</x><y>550</y><w>110</w><h>33</h></coordinates><panel_attributes>Globe</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>88</x><y>121</y><w>110</w><h>33</h></coordinates><panel_attributes>CircuitKit</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>242</y><w>110</w><h>33</h></coordinates><panel_attributes>LightCircuitKit</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>165</x><y>242</y><w>110</w><h>33</h></coordinates><panel_attributes>SensorCircuitKit</panel_attributes><additional_attributes></additional_attributes></element></diagram>
