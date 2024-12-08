@@ -83,4 +83,7 @@ m1=1..*
 m2=1</panel_attributes><additional_attributes>10;10;10;450;1040;450;1040;10</additional_attributes></element><element><id>Relation</id><coordinates><x>462</x><y>0</y><w>702</w><h>264</h></coordinates><panel_attributes>lt=-
 m1=1..*
 m2=1..*
-&lt; made simplest circuits </panel_attributes><additional_attributes>10;420;10;30;1130;20;1130;420</additional_attributes></element></diagram>
+&lt; made simplest circuits </panel_attributes><additional_attributes>10;420;10;30;1130;20;1130;420</additional_attributes></element><element><id>Relation</id><coordinates><x>264</x><y>90</y><w>432</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+must have
+m1=1..*
+m2=1</panel_attributes><additional_attributes>10;20;700;20</additional_attributes></element></diagram>
