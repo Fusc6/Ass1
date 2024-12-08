@@ -1,0 +1,11 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>140</x><y>90</y><w>140</w><h>150</h></coordinates><panel_attributes>Wire
+--
++ name: str
++ price: float
+--
+- __str__()
+- csv_string()
+- duplicate()
+__- parse_str()__
+- __eq__(other)
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
